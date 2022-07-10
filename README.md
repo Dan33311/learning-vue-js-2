@@ -3,3 +3,4 @@
 
 lesson-1 : Introduction, The Vue instance
 lesson-3 : Data & Methods
+lesson-4 : Data Binding  (v-bind: v-html:)
