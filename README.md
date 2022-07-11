@@ -17,3 +17,5 @@
 `lesson-8`: Two-Way Data Binding (v-model)
 
 `lesson-9`: Computed Properties
+
+`lesson-10`: Dynamic CSS Classes (v-bind:class="{}")
