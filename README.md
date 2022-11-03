@@ -19,4 +19,4 @@ lesson-5 : `Events` (v-on: v-on:click v-on:dblclick v-on:mousemove v-on:click===
 
 lesson-6 : `Event Modifiers` (v-on:click.once v-on:click.prevent 'Event Handling/Event Modifiers')
 
-lesson-7 : `Keyboard Events` (v-on:keyup v-on:keyup.enter v-on:keyup.alt.enter)
+lesson-7 : `Keyboard Events` (v-on:keyup v-on:keyup.enter v-on:keyup.alt.enter 'Event Handling/Key Modifiers')
