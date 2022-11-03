@@ -1,15 +1,22 @@
 ## Branch for each lesson accordind playlist
+
 ## source: [The Net Ninja - VueJS v2](https://youtube.com/playlist?list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa)
 
+## vue2 docs: [Vue2 Documentation](https://v2.vuejs.org/v2/guide/)
 
-lesson-1 : Introduction, The Vue instance
+lesson-1 : `Introduction` (Using Vue from CDN)
 
-lesson-3 : Data & Methods
+lesson-2 : `The Vue instance`
+            new Vue ({})  // instance
+              el:'element-id'
+              data: {}
 
-lesson-4 : Data Binding  (v-bind: v-html:)
+lesson-3 : `Data & Methods` (methods: {})
 
-lesson-5 : Events (v-on: v-on:click v-on:dblclick v-on:mousemove v-on:click===@click)
+lesson-4 : `Data Binding` (v-bind:"dinamic data" v-html:)
 
-lesson-6 : Event Modifiers (v-on:click.once v-on:click.prevent)
+lesson-5 : `Events` (v-on: v-on:click v-on:dblclick v-on:mousemove v-on:click===@click) *e.g. canvas*
 
-lesson-7 : `Keyboard Events (v-on:keyup v-on:keyup.enter v-on:keyup.alt.enter)`
+lesson-6 : `Event Modifiers` (v-on:click.once v-on:click.prevent 'Event Handling/Event Modifiers')
+
+lesson-7 : `Keyboard Events` (v-on:keyup v-on:keyup.enter v-on:keyup.alt.enter)
