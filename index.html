@@ -12,15 +12,18 @@
 
   <body>
     <div id="vue-app">
-      <h1>Keyboard Events</h1>
-      <!-- <label>Name:</label>
-      <input type="text" v-on:keyup="logName">
-      <label>Age:</label>
-      <input type="text" v-on:keyup="logAge"> -->
-      <label>Name:</label>
-      <input type="text" v-on:keyup.enter="logName">
-      <label>Age:</label>
-      <input type="text" v-on:keyup.alt.enter="logAge">
+      <h1>Conditionals</h1>
+
+      <button v-on:click="error = !error">Toogle Error</button>
+      <button v-on:click="success = !success">Toogle Success</button>
+
+      <!-- This p tag is showed if v-if is true -->
+      <p v-if="error">There has been an error!</p>
+      <!-- <p v-if="success">Wooow, success!</p> -->
+      <p v-else-if="success">Wooow, success!</p>
+
+      <p v-show="error">v-show=true => class:display=true</p>
+
     </div>
     <script src="app.js"></script>
   </body>
