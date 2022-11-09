@@ -24,3 +24,5 @@ lesson-8: `Two-Way Data Binding` (v-model)
 lesson-9: `Computed Properties` (computed:  methods vs computed)
 
 lesson-10: `Dynamic CSS Classes` (v-bind:class="{}")
+
+lesson-11: `Conditionals` (v-if v-show)
