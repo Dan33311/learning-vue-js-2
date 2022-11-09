@@ -9,7 +9,7 @@ new Vue({
     // addToA: function(){
     //   console.log('addToA');
     //   return this.a + this.age
-    // }, // cuando ejecuto una funcion ambos logs se imprimen
+    // }, // cuando ejecuto una funcion ambos logs se imprimen. Cada vez que un valor cambia, Vue.js ve las funciones y las corre (ambas).
     // addToB: function(){
     //   console.log('addToB');
     //   return this.b + this.age
